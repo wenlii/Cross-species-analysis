@@ -1,0 +1,11 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.5.2
+statsmodels==0.14.4
+matplotlib==3.9.2
+SciencePlots==2.2.1
+joblib==1.4.2
+patsy==0.5.6
+openpyxl==3.1.5
+Pillow==11.0.0
