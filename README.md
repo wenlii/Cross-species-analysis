@@ -2,7 +2,7 @@
 
 Code and aggregate source tables for *Evolutionary expansion organizes adolescent cortical remodeling rates and behavior-associated human-specific developmental deviation*.
 
-This release starts from the study's expansion-group feature tables and cohort metadata. Image preprocessing and atlas construction are outside its scope. Participant-level inputs are excluded; their schemas and checksums are listed in `inputs.json`.
+This release starts from the study's expansion-group feature tables and cohort metadata. Participant-level inputs are excluded; their schemas and checksums are listed in `inputs.json`.
 
 ## Install and reproduce Figure 6
 
@@ -14,7 +14,7 @@ python verify.py
 python src/plot_figure6.py
 ```
 
-The eight included Figure 6 plotting tables reproduce `outputs/figure6/Fig6_colorbar_v2.png` without participant data. The ninth Figure 6 table is the reference used by the analysis validation. The two Figure 5 tables contain reference model-performance results.
+The eight included Figure 6 plotting tables reproduce `outputs/figure6/Fig6.png` without participant data. The ninth Figure 6 table is the reference used by the analysis validation. The two Figure 5 tables contain reference model-performance results.
 
 ## Recompute with authorized inputs
 
