@@ -2,9 +2,9 @@
   "scope": "Schemas and hashes only; no participant records",
   "inputs": [
     {
-      "configuration": "FIG56_FEATURE_DIR",
+      "configuration": "CROSS_SPECIES_FEATURE_DIR",
       "file": "allSubjects_human_features_expansion.csv",
-      "stage": "figure5_analysis",
+      "stage": "developmental_change_operator",
       "included": false,
       "generated_by_release": false,
       "sha256": "d7d3f938de9c821ca80cd99172b6f7e6b3df7757653d680075b28f3bebf5b689",
@@ -28,9 +28,9 @@
       ]
     },
     {
-      "configuration": "FIG56_FEATURE_DIR",
+      "configuration": "CROSS_SPECIES_FEATURE_DIR",
       "file": "allSubjects_macaque_features_expansion_completed.csv",
-      "stage": "figure5_analysis",
+      "stage": "developmental_change_operator",
       "included": false,
       "generated_by_release": false,
       "sha256": "0f532c306aef4611308acb562cab34b041aa951f371875e7eb8678721d9d8df1",
@@ -52,9 +52,9 @@
       ]
     },
     {
-      "configuration": "FIG56_BEHAVIOR_DIR",
+      "configuration": "CROSS_SPECIES_BEHAVIOR_DIR",
       "file": "subinfo_new_with_3year_complete_covariates.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": false,
       "sha256": "6724de1db8b7733ec56d20c178ac09be4dea6ccdeaf242d151fb89cdd5c3cebe",
@@ -72,9 +72,9 @@
       ]
     },
     {
-      "configuration": "FIG56_BEHAVIOR_DIR",
+      "configuration": "CROSS_SPECIES_BEHAVIOR_DIR",
       "file": "nc_y_nihtb.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": false,
       "sha256": "a656b630f19952d6064713527a63ea6e725735a8bbe886ff9b58b61a9ad4feb7",
@@ -204,9 +204,9 @@
       ]
     },
     {
-      "configuration": "FIG56_BEHAVIOR_DIR",
+      "configuration": "CROSS_SPECIES_BEHAVIOR_DIR",
       "file": "nc_y_ravlt.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": false,
       "sha256": "b07410f529369ea8b1c398b2d5127f3efc585d4acf0929e50d95e01af5dc1dd9",
@@ -245,9 +245,9 @@
       ]
     },
     {
-      "configuration": "FIG56_BEHAVIOR_DIR",
+      "configuration": "CROSS_SPECIES_BEHAVIOR_DIR",
       "file": "nc_y_wisc.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": false,
       "sha256": "18572b99e5e4278bbfe2656d81d8749bd5bddf0b38c9815c1d7a609a71f9430a",
@@ -295,9 +295,9 @@
       ]
     },
     {
-      "configuration": "FIG56_BEHAVIOR_DIR",
+      "configuration": "CROSS_SPECIES_BEHAVIOR_DIR",
       "file": "nc_y_smarte.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": false,
       "sha256": "967a5f68d4e4697f7602eba3998672100cc65cb4204933abcb81db07c480b526",
@@ -364,9 +364,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "human_triples_rate12_to_rate23.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "3c28348b5d0096648cee4c3ecb6c68da6eb9affd73afa0b89e4e20f52b8b3633",
@@ -407,9 +407,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "monkey_triples_rate12_to_rate23.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "d383204fb002332106a6d6b081716e8f9e6d3a9fbf53552ec25f8c91ff84adea",
@@ -450,9 +450,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "spline_spec.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "3a890f76542fdb6be2808f420b15d25f15c94efa918a8438ba895be384aa5700",
@@ -464,9 +464,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_CT_noCratio_human_oof_predictions.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "8d170aec9dc908b93f840f1f9033c54143645decc705de6bc67f04df8944ca51",
@@ -500,9 +500,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_CT_noCratio_monkey_obs_pred_resid_raw.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "683530eded2b0e76e4a78f8d0e61dbb405ddb61533cf9e2a76042e2ebd9c4da5",
@@ -546,27 +546,27 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_CT_noCratio_human_rate_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "28463c58e6be0a88c61caf7e592e3af34aa9b1e9676450baab5f129e41ea31ea",
       "bytes": 3738
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_CT_noCratio_human_baseline_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "47fa707de704429fc78661d4c7294f5371b06474ad66bf82b90a712af54a5b93",
       "bytes": 3386
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_CT_noCratio_human_ref_confounds.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "1400fd7ff866526b77f1709432ad3f8295cc57a38803b42c34534afbb1900b65",
@@ -578,9 +578,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_SA_noCratio_human_oof_predictions.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "854e840b65328009a6ce04d891fc2242168c01d248a6507bb4f382d9cdc2e0ad",
@@ -614,9 +614,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_SA_noCratio_monkey_obs_pred_resid_raw.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "6d11c68158b329420de03ce542f91d78ed7222a0bcbadc83cda37bf5ba5d5082",
@@ -660,27 +660,27 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_SA_noCratio_human_rate_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "b9e476cd19583aa246b10ef362547900c3635af84a9758fafb0491977d6d0a21",
       "bytes": 3738
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_SA_noCratio_human_baseline_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "2757bb4e142a173ba88c1ada779ca767140a7ead498b94e4597ef0eae30688bb",
       "bytes": 3386
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_low_expansion_SA_noCratio_human_ref_confounds.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "1400fd7ff866526b77f1709432ad3f8295cc57a38803b42c34534afbb1900b65",
@@ -692,9 +692,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_CT_noCratio_human_oof_predictions.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "7ce60738a53c2989941941bffe93165dc1357274d31bc991f94057f125ebfcb0",
@@ -728,9 +728,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_CT_noCratio_monkey_obs_pred_resid_raw.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "ca043b91e6d4882b3b4791c541d8a2b0b23825076ebabd300adf6f64bdce01df",
@@ -774,27 +774,27 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_CT_noCratio_human_rate_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "48bd27fbd05ef470871f487cbecef635e08aa2c40e0aaa4d28e7075942552f01",
       "bytes": 3738
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_CT_noCratio_human_baseline_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "2a81f2b81ce4482867fd3675dbdbc6d43f1d66352ad401a71554ec9bf68712ca",
       "bytes": 3386
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_CT_noCratio_human_ref_confounds.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "1400fd7ff866526b77f1709432ad3f8295cc57a38803b42c34534afbb1900b65",
@@ -806,9 +806,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_SA_noCratio_human_oof_predictions.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "dd66e29c19b593595a4f4b3fe84f704115775d43bc5cbaa1142c51a11ebf17e8",
@@ -842,9 +842,9 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_SA_noCratio_monkey_obs_pred_resid_raw.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "065f2ae4786dab70a3699bdedc9fda4e5f84ec61c6bb3686dad5894ce350623e",
@@ -888,27 +888,27 @@
       ]
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_SA_noCratio_human_rate_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "8bb217634cfb816fe6edd512d20a9383a9019793071ec3f02c035abb69458087",
       "bytes": 3738
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_SA_noCratio_human_baseline_residualizer.joblib",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "42a0d59423a8e7f79a00f5a81d2479a5fb8dbfddfbf087b2464ea7ab8f0ad32e",
       "bytes": 3386
     },
     {
-      "configuration": "FIG56_PREDICTION_DIR",
+      "configuration": "CROSS_SPECIES_PREDICTION_DIR",
       "file": "R12toR23_high_expansion_SA_noCratio_human_ref_confounds.csv",
-      "stage": "plot_figure5 or derive_hsdi",
+      "stage": "plot_longitudinal_predictions or human_specific_deviation",
       "included": false,
       "generated_by_release": true,
       "sha256": "1400fd7ff866526b77f1709432ad3f8295cc57a38803b42c34534afbb1900b65",
@@ -920,9 +920,9 @@
       ]
     },
     {
-      "configuration": "FIG56_HSDI_DIR",
+      "configuration": "CROSS_SPECIES_HSDI_DIR",
       "file": "HSDI_wide_byTriple_noClip.csv",
-      "stage": "prepare_cognition",
+      "stage": "prepare_cognition_inputs",
       "included": false,
       "generated_by_release": true,
       "sha256": "73ffb9a1c20d9af276b13fcaf19ebb12bafc5a08ce547911e077bd3240ded2eb",
@@ -956,9 +956,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "HSDI_subjectLevel_fromByTriple_core4.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "a13901d62491e00f3d517166e1d2926003e3608e113f16dc770a193b304cf72e",
@@ -980,9 +980,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "subinfo_event_covariates_used.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "26a16d5589d0a85d360f1813c89c1cd8d6c004b1bae6f9a2dd2577311f06744d",
@@ -998,9 +998,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "MERGED_nc_y_nihtb_withHSDI_subinfo_tail.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "62b9a9dc8b3174e64598a68abc57f217971d30e5132d51c081f24b565fa57198",
@@ -1029,9 +1029,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "MERGED_nc_y_ravlt_withHSDI_subinfo_tail.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "246d73966b80e1f298ffcacbf2462f2e366ed29debffbc207e58921b65ff9701",
@@ -1059,9 +1059,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "MERGED_nc_y_wisc_withHSDI_subinfo_tail.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "930d74b67941b915d64e353d196a12cdb415dde7750ddd8a096b4ca3e3ffc1c7",
@@ -1089,9 +1089,9 @@
       ]
     },
     {
-      "configuration": "FIG56_COGNITION_DIR",
+      "configuration": "CROSS_SPECIES_COGNITION_DIR",
       "file": "MERGED_nc_y_smarte_withHSDI_subinfo_tail.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": true,
       "sha256": "bb790573f64de25c4bcadda43836855872fe6a56981be6c9d9e2ae82fd650c4e",
@@ -1119,9 +1119,9 @@
       ]
     },
     {
-      "configuration": "FIG56_DEMOGRAPHICS_FILE",
+      "configuration": "CROSS_SPECIES_DEMOGRAPHICS_FILE",
       "file": "subinfo_event_covariates_with_demographics_grouped.xlsx",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": false,
       "sha256": "b57d05e216d56ee0aa9d6c6066d441022d44e2092df41d36074dd486895851ad",
@@ -1148,7 +1148,7 @@
     {
       "configuration": "ABCD_CORE_DIR",
       "file": "abcd-general/abcd_y_lt.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": false,
       "sha256": "4750ea67dfe902c502025720fac42fee51cfa97848efceafc2331a439745a9b8",
@@ -1170,7 +1170,7 @@
     {
       "configuration": "ABCD_CORE_DIR",
       "file": "mental-health/mh_p_cbcl.csv",
-      "stage": "figure6_analysis",
+      "stage": "behavior_association",
       "included": false,
       "generated_by_release": false,
       "sha256": "a208b34ccea9a562904dfa3e7db2f53ba98c9b3a56d50671c29f710a91d188ba",
