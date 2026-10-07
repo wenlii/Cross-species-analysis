@@ -51,7 +51,7 @@ python src/behavior_association.py
 
 ## Public results and figure regeneration
 
-The public release includes two aggregate developmental-operator performance tables under `results/developmental_change_operator/`. Its eight aggregate behavior-association plotting tables and one CBCL reference table are under `results/behavior_association/`. Participant-level feature, prediction and behavioral inputs are not included. In particular, the two public performance tables cannot regenerate the participant-level plots on their own.
+The public release includes two aggregate developmental-operator performance tables under `modeling_outputs/developmental_change_operator/`. Its eight aggregate behavior-association plotting tables and one CBCL reference table are under `modeling_outputs/behavior_association/`. Participant-level feature, prediction and behavioral inputs are not included. In particular, the two public performance tables cannot regenerate the participant-level plots on their own.
 
 From this directory, the supplied behavior-association tables can be checked and used to regenerate the reported Figure 6 without controlled inputs:
 
